@@ -571,6 +571,10 @@ video {
   max-width: 1216px;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -579,33 +583,28 @@ video {
   gap: 1.75rem;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
+.gap-\[30\] {
+  gap: 30;
+}
+
+.gap-\[30px\] {
+  gap: 30px;
+}
+
+.gap-\[3\] {
+  gap: 3;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
 .rounded-full {
   border-radius: 9999px;
-}
-
-.border-x-2 {
-  border-left-width: 2px;
-  border-right-width: 2px;
-}
-
-.border-x {
-  border-left-width: 1px;
-  border-right-width: 1px;
-}
-
-.border-y {
-  border-top-width: 1px;
-  border-bottom-width: 1px;
-}
-
-.border-x-0 {
-  border-left-width: 0px;
-  border-right-width: 0px;
-}
-
-.border-gray-800 {
-  --tw-border-opacity: 1;
-  border-color: rgb(31 41 55 / var(--tw-border-opacity));
 }
 
 .bg-black {
@@ -657,21 +656,6 @@ video {
   line-height: 1.75rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -688,20 +672,8 @@ video {
   line-height: 1.75rem;
 }
 
-.leading-8 {
-  line-height: 2rem;
-}
-
 .tracking-tight {
   letter-spacing: -0.025em;
-}
-
-.tracking-wide {
-  letter-spacing: 0.025em;
-}
-
-.tracking-normal {
-  letter-spacing: 0em;
 }
 
 .text-white {
@@ -712,14 +684,6 @@ video {
 .text-zinc-400 {
   --tw-text-opacity: 1;
   color: rgb(161 161 170 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
-}
-
-.text-\[32\] {
-  color: 32;
 }
 
 .shadow-lg {
@@ -744,81 +708,6 @@ video {
     margin-right: 2rem;
   }
 
-  .sm\:mx-\[\] {
-    margin-left: ;
-    margin-right: ;
-  }
-
-  .sm\:mx-\[3\] {
-    margin-left: 3;
-    margin-right: 3;
-  }
-
-  .sm\:mx-\[30\] {
-    margin-left: 30;
-    margin-right: 30;
-  }
-
-  .sm\:mx-\[30p\] {
-    margin-left: 30p;
-    margin-right: 30p;
-  }
-
-  .sm\:mx-\[30px\] {
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-
-  .sm\:mx-\[px\] {
-    margin-left: px;
-    margin-right: px;
-  }
-
-  .sm\:mx-\[2px\] {
-    margin-left: 2px;
-    margin-right: 2px;
-  }
-
-  .sm\:mx-\[28px\] {
-    margin-left: 28px;
-    margin-right: 28px;
-  }
-
-  .sm\:mx-\[31\] {
-    margin-left: 31;
-    margin-right: 31;
-  }
-
-  .sm\:mx-\[31p\] {
-    margin-left: 31p;
-    margin-right: 31p;
-  }
-
-  .sm\:mx-\[31px\] {
-    margin-left: 31px;
-    margin-right: 31px;
-  }
-
-  .sm\:mx-\[32px\] {
-    margin-left: 32px;
-    margin-right: 32px;
-  }
-
-  .sm\:mx-\[3px\] {
-    margin-left: 3px;
-    margin-right: 3px;
-  }
-
-  .sm\:mx-px {
-    margin-left: 1px;
-    margin-right: 1px;
-  }
-
-  .sm\:mx-0 {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
   .sm\:border-x-2 {
     border-left-width: 2px;
     border-right-width: 2px;
@@ -829,11 +718,6 @@ video {
     border-color: rgb(31 41 55 / var(--tw-border-opacity));
   }
 
-  .sm\:px-8 {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
   .sm\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -841,5 +725,81 @@ video {
 
   .sm\:leading-\[56px\] {
     line-height: 56px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:mx-16 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .lg\:mx-12 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .lg\:pr-2 {
+    padding-right: 0.5rem;
+  }
+
+  .lg\:pr-20 {
+    padding-right: 5rem;
+  }
+
+  .lg\:pr-3 {
+    padding-right: 0.75rem;
+  }
+
+  .lg\:pr-36 {
+    padding-right: 9rem;
+  }
+
+  .lg\:pr-4 {
+    padding-right: 1rem;
+  }
+
+  .lg\:pr-48 {
+    padding-right: 12rem;
+  }
+
+  .lg\:pr-52 {
+    padding-right: 13rem;
+  }
+
+  .lg\:pr-32 {
+    padding-right: 8rem;
+  }
+
+  .lg\:pr-28 {
+    padding-right: 7rem;
+  }
+
+  .lg\:pr-\[100\] {
+    padding-right: 100;
+  }
+
+  .lg\:pr-\[100px\] {
+    padding-right: 100px;
+  }
+
+  .lg\:pr-\[100p\] {
+    padding-right: 100p;
+  }
+
+  .lg\:pr-\[1\] {
+    padding-right: 1;
+  }
+
+  .lg\:pr-\[110px\] {
+    padding-right: 110px;
+  }
+
+  .lg\:pr-\[10px\] {
+    padding-right: 10px;
+  }
+
+  .lg\:pr-\[120px\] {
+    padding-right: 120px;
   }
 }
