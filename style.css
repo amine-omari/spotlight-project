@@ -563,10 +563,6 @@ video {
   height: 100vh;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .w-16 {
   width: 4rem;
 }
