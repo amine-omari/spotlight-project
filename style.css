@@ -579,10 +579,6 @@ video {
   max-width: 1216px;
 }
 
-.max-w-\[\] {
-  max-width: ;
-}
-
 .max-w-\[1\] {
   max-width: 1;
 }
@@ -609,6 +605,10 @@ video {
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-x {
@@ -654,11 +654,6 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.py-\[\] {
-  padding-top: ;
-  padding-bottom: ;
 }
 
 .py-\[23\] {
@@ -762,6 +757,85 @@ video {
   .sm\:mx-8 {
     margin-left: 2rem;
     margin-right: 2rem;
+  }
+
+  .sm\:border {
+    border-width: 1px;
+  }
+
+  .sm\:border-x {
+    border-left-width: 1px;
+    border-right-width: 1px;
+  }
+
+  .sm\:border-x-0 {
+    border-left-width: 0px;
+    border-right-width: 0px;
+  }
+
+  .sm\:border-x-\[0\] {
+    border-left-width: 0;
+    border-right-width: 0;
+  }
+
+  .sm\:border-x-\[0\.5px\] {
+    border-left-width: 0.5px;
+    border-right-width: 0.5px;
+  }
+
+  .sm\:border-x-\[0\.4px\] {
+    border-left-width: 0.4px;
+    border-right-width: 0.4px;
+  }
+
+  .sm\:border-x-\[0\.3px\] {
+    border-left-width: 0.3px;
+    border-right-width: 0.3px;
+  }
+
+  .sm\:border-x-\[0\.2px\] {
+    border-left-width: 0.2px;
+    border-right-width: 0.2px;
+  }
+
+  .sm\:border-x-\[0\.1px\] {
+    border-left-width: 0.1px;
+    border-right-width: 0.1px;
+  }
+
+  .sm\:border-x-\[0\.0px\] {
+    border-left-width: 0.0px;
+    border-right-width: 0.0px;
+  }
+
+  .sm\:border-x-\[0\.01px\] {
+    border-left-width: 0.01px;
+    border-right-width: 0.01px;
+  }
+
+  .sm\:border-x-\[0\.001px\] {
+    border-left-width: 0.001px;
+    border-right-width: 0.001px;
+  }
+
+  .sm\:border-zinc-800 {
+    --tw-border-opacity: 1;
+    border-color: rgb(39 39 42 / var(--tw-border-opacity));
+  }
+
+  .sm\:border-x-\[0\.\] {
+    border-left-color: 0.;
+    border-right-color: 0.;
+  }
+
+  .sm\:border-x-\[0\.5\] {
+    border-left-color: 0.5;
+    border-right-color: 0.5;
+  }
+
+  .sm\:border-x-\[0\.px\] {
+    border-left-color: 0.px;
+    border-right-color: 0.px;
   }
 
   .sm\:text-5xl {
