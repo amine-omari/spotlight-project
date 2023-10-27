@@ -567,12 +567,16 @@ video {
   width: 4rem;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .max-w-\[1216px\] {
   max-width: 1216px;
 }
 
-.flex-col {
-  flex-direction: column;
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-center {
@@ -583,24 +587,8 @@ video {
   gap: 1.75rem;
 }
 
-.gap-8 {
-  gap: 2rem;
-}
-
-.gap-\[30\] {
-  gap: 30;
-}
-
-.gap-\[30px\] {
-  gap: 30px;
-}
-
-.gap-\[3\] {
-  gap: 3;
-}
-
-.gap-6 {
-  gap: 1.5rem;
+.gap-\[\] {
+  gap: ;
 }
 
 .rounded-full {
@@ -728,6 +716,24 @@ video {
   }
 }
 
+@media (min-width: 768px) {
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:flex-col {
+    flex-direction: column;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:justify-center {
+    justify-content: center;
+  }
+}
+
 @media (min-width: 1024px) {
   .lg\:mx-16 {
     margin-left: 4rem;
@@ -739,64 +745,8 @@ video {
     margin-right: 3rem;
   }
 
-  .lg\:pr-2 {
-    padding-right: 0.5rem;
-  }
-
-  .lg\:pr-20 {
-    padding-right: 5rem;
-  }
-
-  .lg\:pr-3 {
-    padding-right: 0.75rem;
-  }
-
-  .lg\:pr-36 {
-    padding-right: 9rem;
-  }
-
-  .lg\:pr-4 {
-    padding-right: 1rem;
-  }
-
   .lg\:pr-48 {
     padding-right: 12rem;
-  }
-
-  .lg\:pr-52 {
-    padding-right: 13rem;
-  }
-
-  .lg\:pr-32 {
-    padding-right: 8rem;
-  }
-
-  .lg\:pr-28 {
-    padding-right: 7rem;
-  }
-
-  .lg\:pr-\[100\] {
-    padding-right: 100;
-  }
-
-  .lg\:pr-\[100px\] {
-    padding-right: 100px;
-  }
-
-  .lg\:pr-\[100p\] {
-    padding-right: 100p;
-  }
-
-  .lg\:pr-\[1\] {
-    padding-right: 1;
-  }
-
-  .lg\:pr-\[110px\] {
-    padding-right: 110px;
-  }
-
-  .lg\:pr-\[10px\] {
-    padding-right: 10px;
   }
 
   .lg\:pr-\[120px\] {
