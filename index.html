@@ -22,7 +22,7 @@
     <nav class="md:hidden">
         <div class="flex justify-end pr-4                                        gap-x-4">
             <button type="button" class="bg-zinc-800 py-2 px-4 rounded-full text-white text-sm font-semibold">
-                Menu <i class="fa-solid fa-check text-[8px] text-zinc-500 ml-2"></i>
+                Menu <i class="fa-solid fa-angle-down text-[8px] text-zinc-500 ml-2"></i>
             </button>
             <button class="bg-zinc-800 py-2 px-4 rounded-full text-lg text-zinc-500">
                 <i class="fa-regular fa-moon"></i>
@@ -65,27 +65,59 @@
             <img src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-4.5c6d0ed6.jpg&w=640&q=75" class="w-[200px] h-40">
             <img src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-5.6c6f2784.jpg&w=640&q=75" class="w-[200px] h-40">
         </section>
-        <section>
-            <div>
+        <section class="mt-20 grid gap-20">
+            <div class="flex flex-col gap-y-16 px-4">
                 <a href="">
-                    <div>
-                        <p class="text-sm text-zinc-600">
-                            <i class="fa-solid fa-grip-lines-vertical text-zinc-400"></i>
+                    <div class="transition duration-500 bg-fixed hover:bg-zinc-800/50 md:rounded-3xl">
+                        <p class="text-sm text-zinc-500">
+                            <i class="fa-solid fa-grip-lines-vertical text-zinc-400 mr-1"></i>
                             September 5, 2022
                         </p>
-                        <h2>Crafting a design system for a multiplanetary future</h2>
-                        <p>
+                        <h2 class="text-white mt-4 font-semibold tracking-tight">Crafting a design system for a multiplanetary future</h2>
+                        <p class="text-zinc-400 mt-2 text-sm leading-6">
                             Most companies try to stay ahead of the curve when it comes to visual design, 
                             but for Planetaria we needed to create a brand that would still inspire us 100 years from now when humanity has 
                             spread across our entire solar system.
                         </p>
+                        <p class="text-sm mt-4 text-teal-500 font-semibold">
+                            Read article
+                            <i class="fa-solid fa-angle-right text-[8px] ml-1.5"></i>
+                        </p>
                     </div>
                 </a>
                 <a href="">
-                    <div></div>
+                    <div>
+                        <p class="text-sm text-zinc-500">
+                            <i class="fa-solid fa-grip-lines-vertical text-zinc-400 mr-1"></i>
+                            September 2, 2022
+                        </p>
+                        <h2 class="text-white mt-4 font-semibold tracking-tight leading-7">Introducing Animaginary: High performance web animations</h2>
+                        <p class="text-zinc-400 mt-2 text-sm leading-6">
+                            When you’re building a website for a company as ambitious as Planetaria, you need to make an impression. 
+                            I wanted people to visit our website and see animations that looked more realistic than reality itself.
+                        </p>
+                        <p class="text-sm mt-4 text-teal-500 font-semibold">
+                            Read article
+                            <i class="fa-solid fa-angle-right text-[8px] ml-1.5"></i>
+                        </p>
+                    </div>
                 </a>
                 <a href="">
-                    <div></div> 
+                    <div>
+                        <p class="text-sm text-zinc-500">
+                            <i class="fa-solid fa-grip-lines-vertical text-zinc-400 mr-1"></i>
+                            July 14, 2022
+                        </p>
+                        <h2 class="text-white mt-4 font-semibold tracking-tight leading-7">Rewriting the cosmOS kernel in Rust</h2>
+                        <p class="text-zinc-400 mt-2 text-sm leading-6">
+                            When we released the first version of cosmOS last year, it was written in Go. Go is a wonderful programming language, but it’s been a while since 
+                            I’ve seen an article on the front page of Hacker News about rewriting some important tool in Go and I see articles on there about rewriting things in Rust every single week.
+                        </p>
+                        <p class="text-sm mt-4 text-teal-500 font-semibold">
+                            Read article
+                            <i class="fa-solid fa-angle-right text-[8px] ml-1.5"></i>
+                        </p>
+                    </div> 
                 </a>
             </div>
         </section>
