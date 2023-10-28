@@ -633,6 +633,10 @@ video {
   min-width: max-content;
 }
 
+.min-w-\[\] {
+  min-width: ;
+}
+
 .min-w-\[75\] {
   min-width: 75;
 }
@@ -663,6 +667,10 @@ video {
 
 .min-w-\[80\%\] {
   min-width: 80%;
+}
+
+.min-w-\[\%\] {
+  min-width: %;
 }
 
 .min-w-\[79\%\] {
@@ -886,6 +894,11 @@ video {
 .py-\[22px\] {
   padding-top: 22px;
   padding-bottom: 22px;
+}
+
+.py-\[\] {
+  padding-top: ;
+  padding-bottom: ;
 }
 
 .py-\[7\] {
