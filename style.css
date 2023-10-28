@@ -534,6 +534,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -568,6 +572,30 @@ video {
 
 .left-44 {
   left: 11rem;
+}
+
+.left-20 {
+  left: 5rem;
+}
+
+.left-60 {
+  left: 15rem;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.left-6 {
+  left: 1.5rem;
+}
+
+.left-72 {
+  left: 18rem;
+}
+
+.left-64 {
+  left: 16rem;
 }
 
 .-m-1 {
@@ -832,6 +860,10 @@ video {
 
 .pr-4 {
   padding-right: 1rem;
+}
+
+.pr-3 {
+  padding-right: 0.75rem;
 }
 
 .text-center {
