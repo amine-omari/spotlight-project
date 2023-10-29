@@ -534,6 +534,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .-m-1 {
   margin: -0.25rem;
 }
@@ -541,6 +545,11 @@ video {
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .ml-1 {
@@ -589,6 +598,14 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
+}
+
+.mt-32 {
+  margin-top: 8rem;
 }
 
 .flex {
@@ -649,6 +666,10 @@ video {
 
 .max-w-\[1216px\] {
   max-width: 1216px;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .flex-col {
@@ -714,10 +735,32 @@ video {
   row-gap: 4rem;
 }
 
+.gap-x-2\.5 {
+  -moz-column-gap: 0.625rem;
+       column-gap: 0.625rem;
+}
+
+.gap-x-3 {
+  -moz-column-gap: 0.75rem;
+       column-gap: 0.75rem;
+}
+
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.space-x-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .rounded-2xl {
@@ -730,6 +773,14 @@ video {
 
 .rounded-md {
   border-radius: 0.375rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
 .border {
@@ -1027,6 +1078,12 @@ video {
   --tw-ring-color: rgb(45 212 191 / 0.1);
 }
 
+@media not all and (min-width: 768px) {
+  .max-md\:max-w-\[1216px\] {
+    max-width: 1216px;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:mx-8 {
     margin-left: 2rem;
@@ -1041,12 +1098,39 @@ video {
     display: none;
   }
 
+  .md\:max-w-\[1216px\] {
+    max-width: 1216px;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
   .md\:justify-center {
     justify-content: center;
   }
 
   .md\:rounded-3xl {
     border-radius: 1.5rem;
+  }
+
+  .md\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .md\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .md\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .md\:text-5xl {
