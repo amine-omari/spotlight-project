@@ -583,6 +583,14 @@ video {
   margin-top: 1.5rem;
 }
 
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -813,6 +821,10 @@ video {
   padding-right: 1rem;
 }
 
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
 .text-\[13px\] {
   font-size: 13px;
 }
@@ -843,6 +855,11 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold {
@@ -911,6 +928,10 @@ video {
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
+.text-\[8\] {
+  color: 8;
 }
 
 .shadow-lg {
