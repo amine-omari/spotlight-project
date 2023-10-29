@@ -18,7 +18,7 @@
             <a href="https://spotlight.tailwindui.com/speaking" class="px-3 py-3 hover:text-teal-400 transition">Speaking</a>
             <a href="https://spotlight.tailwindui.com/uses" class="px-3 py-3 hover:text-teal-400 transition">Uses</a>
         </div>
-        <button class="absolute right-16 bg-zinc-800 py-2 px-4 rounded-full text-lg text-zinc-500">
+        <button class="absolute right-16 bg-zinc-800 py-2 px-4 rounded-full text-lg text-zinc-500 lg:right-28">
             <i class="fa-regular fa-moon"></i>
         </button>
     </nav>
@@ -68,15 +68,16 @@
             <img src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-4.5c6d0ed6.jpg&w=640&q=75" class="w-[200px] h-40 rounded-xl">
             <img src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-5.6c6f2784.jpg&w=640&q=75" class="w-[200px] h-40 rounded-xl">
         </section>
-        <section class="mt-20 grid gap-20 md:px-12">
+        <section class="mt-20 grid gap-20 md:px-12 lg:grid-cols-2 lg:px-12 lg:gap-0">
             <div class="flex flex-col gap-y-16">
                 <a href="">
-                    <div class="py-4 px-4 transition duration-500 bg-fixed hover:bg-zinc-800/50 md:rounded-3xl">
+                    <div class="relative">
+                        <div class="absolute h-full w-full top-0 left-0 hover:bg-zinc-200/10 hover:scale-105 transition duration-300 rounded-3xl"></div>
                         <p class="text-sm text-zinc-500">
-                            <i class="fa-solid fa-grip-lines-vertical text-zinc-400 mr-1"></i>
+                            <span class="mr-2">|</span>
                             September 5, 2022
                         </p>
-                        <h2 class="text-white mt-4 font-semibold tracking-tight">Crafting a design system for a multiplanetary future</h2>
+                        <h2 class="text-white mt-3 font-semibold tracking-tight">Crafting a design system for a multiplanetary future</h2>
                         <p class="text-zinc-400 mt-2 text-sm leading-6">
                             Most companies try to stay ahead of the curve when it comes to visual design, 
                             but for Planetaria we needed to create a brand that would still inspire us 100 years from now when humanity has 
@@ -89,12 +90,13 @@
                     </div>
                 </a>
                 <a href="">
-                    <div class="py-4 px-4 transition duration-500 bg-fixed hover:bg-zinc-800/50 md:rounded-3xl">
+                    <div class="relative">
+                        <div class="absolute h-full w-full top-0 left-0 hover:bg-zinc-200/10 hover:scale-105 transition duration-300 rounded-3xl"></div>
                         <p class="text-sm text-zinc-500">
-                            <i class="fa-solid fa-grip-lines-vertical text-zinc-400 mr-1"></i>
+                            <span class="mr-2">|</span>
                             September 2, 2022
                         </p>
-                        <h2 class="text-white mt-4 font-semibold tracking-tight leading-7">Introducing Animaginary: High performance web animations</h2>
+                        <h2 class="text-white mt-3 font-semibold tracking-tight leading-7">Introducing Animaginary: High performance web animations</h2>
                         <p class="text-zinc-400 mt-2 text-sm leading-6">
                             When you're building a website for a company as ambitious as Planetaria, you need to make an impression. 
                             I wanted people to visit our website and see animations that looked more realistic than reality itself.
@@ -106,12 +108,13 @@
                     </div>
                 </a>
                 <a href="">
-                    <div class="py-4 px-4 transition duration-500 bg-fixed hover:bg-zinc-800/50 md:rounded-3xl">
+                    <div class="relative">
+                        <div class="absolute h-full w-full top-0 left-0 hover:bg-zinc-200/10 hover:scale-105 transition duration-300 rounded-3xl"></div>
                         <p class="text-sm text-zinc-500">
-                            <i class="fa-solid fa-grip-lines-vertical text-zinc-400 mr-1"></i>
+                            <span class="mr-2">|</span>
                             July 14, 2022
                         </p>
-                        <h2 class="text-white mt-4 font-semibold tracking-tight leading-7">Rewriting the cosmOS kernel in Rust</h2>
+                        <h2 class="text-white mt-3 font-semibold tracking-tight leading-7">Rewriting the cosmOS kernel in Rust</h2>
                         <p class="text-zinc-400 mt-2 text-sm leading-6">
                             When we released the first version of cosmOS last year, it was written in Go. Go is a wonderful programming language, but it’s been a while since 
                             I've seen an article on the front page of Hacker News about rewriting some important tool in Go and I see articles on there about rewriting things in Rust every single week.
@@ -123,15 +126,15 @@
                     </div> 
                 </a>
             </div>
-            <div class="px-4">
+            <div class="px-4 lg:px-0 lg:pl-16">
                 <form method="post" target="_blank" autocapitalize="on" class="border border-zinc-700/40 p-6 rounded-2xl">
                     <h2 class="text-white text-sm font-semibold">
                         <i class="fa-regular fa-envelope text-zinc-500 mr-2 text-xl"></i>
                         Stay up to date
                     </h2>
-                    <p class="text-zinc-400 text-sm mt-2">Get notified when i publish something new, and unsubscribe at any time.</p>
+                    <p class="text-zinc-400 text-sm mt-2 leading-6">Get notified when i publish something new, and unsubscribe at any time.</p>
                     <div class="mt-6 flex justify-between">
-                        <input class="min-w-[80%] px-3 py-[7px] rounded-md bg-zinc-700/10 border border-zinc-600 focus:ring-4 focus:ring-teal-400/10 focus:border-teal-400 focus:outline-none placeholder:text-zinc-500" type="email" placeholder="Email address" required pattern="[A-Za-z0-9]+@[a-z]+\.[a-z]{2,3}" title="must be a valid email address">
+                        <input class="min-w-[80%] md:min-w-[87%] lg:min-w-fit px-3 py-[7px] rounded-md bg-zinc-700/10 border border-zinc-600 focus:ring-4 focus:ring-teal-400/10 focus:border-teal-400 focus:outline-none placeholder:text-zinc-500" type="email" placeholder="Email address" required pattern="[A-Za-z0-9]+@[a-z]+\.[a-z]{2,3}" title="must be a valid email address">
                         <button class="px-3 py-2 text-white bg-zinc-700 rounded-md font-semibold hover:bg-zinc-600" type="submit">Join</button>
                     </div>
                 </form>
@@ -145,7 +148,7 @@
                             <div class="h-10 w-10 bg-zinc-800 rounded-full flex justify-center items-center border border-zinc-700/50">
                                 <img src="https://spotlight.tailwindui.com/_next/static/media/planetaria.ecd81ade.svg" class="w-7 h-7">
                             </div>
-                            <div class="flex flex-col min-w-[83%] md:min-w-[89%] gap-y-1.5">
+                            <div class="flex flex-col min-w-[83%] md:min-w-[89%] lg:min-w-[80%] gap-y-1.5">
                                 <p class="text-white text-sm font-semibold">Planetaria</p>
                                 <div class="text-[13px] flex justify-between">
                                     <p class="text-zinc-400">CEO</p>
@@ -157,7 +160,7 @@
                             <div class="h-10 w-10 bg-zinc-800 rounded-full flex justify-center items-center border border-zinc-700/50">
                                 <img src="https://spotlight.tailwindui.com/_next/static/media/airbnb.b4000690.svg" class="w-7 h-7">
                             </div>
-                            <div class="flex flex-col min-w-[83%] md:min-w-[89%] gap-y-1.5">
+                            <div class="flex flex-col min-w-[83%] md:min-w-[89%] lg:min-w-[80%] gap-y-1.5">
                                 <p class="text-white text-sm font-semibold">Airbnb</p>
                                 <div class="text-[13px] flex justify-between">
                                     <p class="text-zinc-400">Produc Designer</p>
@@ -169,7 +172,7 @@
                             <div class="h-10 w-10 bg-zinc-800 rounded-full flex justify-center items-center border border-zinc-700/50">
                                 <img src="https://spotlight.tailwindui.com/_next/static/media/facebook.dd9e7d48.svg" class="w-7 h-7">
                             </div>
-                            <div class="flex flex-col min-w-[83%] md:min-w-[89%] gap-y-1.5">
+                            <div class="flex flex-col min-w-[83%] md:min-w-[89%] lg:min-w-[80%] gap-y-1.5">
                                 <p class="text-white text-sm font-semibold">Facebook</p>
                                 <div class="text-[13px] flex justify-between">
                                     <p class="text-zinc-400">IOS Software Engineer</p>
@@ -181,7 +184,7 @@
                             <div class="h-10 w-10 bg-zinc-800 rounded-full flex justify-center items-center border border-zinc-700/50">
                                 <img src="https://spotlight.tailwindui.com/_next/static/media/starbucks.4a5bd050.svg" class="w-7 h-7">
                             </div>
-                            <div class="flex flex-col min-w-[83%] md:min-w-[89%] gap-y-1.5">
+                            <div class="flex flex-col min-w-[83%] md:min-w-[89%] lg:min-w-[80%] gap-y-1.5">
                                 <p class="text-white text-sm font-semibold">Starbucks</p>
                                 <div class="text-[13px] flex justify-between">
                                     <p class="text-zinc-400">Shift Supervisor</p>
@@ -201,7 +204,7 @@
 </body>
 <hr class="border border-zinc-700/40 mt-32">
 <footer class="pt-10 pb-16">
-    <div class="px-4 flex flex-col items-center gap-7 md:flex-row md:justify-between md:px-8">
+    <div class="px-4 flex flex-col items-center gap-7 md:flex-row md:justify-between md:px-8 lg:px-12">
         <div class="text-white space-x-5 font-semibold text-sm">
             <a href="" class="hover:text-teal-400 transition">About</a>
             <a href="" class="hover:text-teal-400 transition">Projects</a>
