@@ -608,6 +608,10 @@ video {
   margin-top: 8rem;
 }
 
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
 .flex {
   display: flex;
 }
@@ -660,6 +664,15 @@ video {
   min-width: 83%;
 }
 
+.min-w-full {
+  min-width: 100%;
+}
+
+.min-w-fit {
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+}
+
 .max-w-2xl {
   max-width: 42rem;
 }
@@ -670,6 +683,14 @@ video {
 
 .max-w-full {
   max-width: 100%;
+}
+
+.max-w-\[80\%\] {
+  max-width: 80%;
+}
+
+.max-w-\[83\%\] {
+  max-width: 83%;
 }
 
 .flex-col {
@@ -743,6 +764,14 @@ video {
 .gap-x-3 {
   -moz-column-gap: 0.75rem;
        column-gap: 0.75rem;
+}
+
+.gap-y-2 {
+  row-gap: 0.5rem;
+}
+
+.gap-y-1\.5 {
+  row-gap: 0.375rem;
 }
 
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
@@ -1098,6 +1127,26 @@ video {
     display: none;
   }
 
+  .md\:min-w-\[90\] {
+    min-width: 90;
+  }
+
+  .md\:min-w-\[90\%\] {
+    min-width: 90%;
+  }
+
+  .md\:min-w-\[8\%\] {
+    min-width: 8%;
+  }
+
+  .md\:min-w-\[88\%\] {
+    min-width: 88%;
+  }
+
+  .md\:min-w-\[89\%\] {
+    min-width: 89%;
+  }
+
   .md\:max-w-\[1216px\] {
     max-width: 1216px;
   }
@@ -1112,6 +1161,10 @@ video {
 
   .md\:justify-center {
     justify-content: center;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
   }
 
   .md\:rounded-3xl {
