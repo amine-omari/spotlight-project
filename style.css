@@ -534,6 +534,30 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.right-10 {
+  right: 2.5rem;
+}
+
+.right-1 {
+  right: 0.25rem;
+}
+
+.right-20 {
+  right: 5rem;
+}
+
+.right-2 {
+  right: 0.5rem;
+}
+
+.right-16 {
+  right: 4rem;
+}
+
 .-m-1 {
   margin: -0.25rem;
 }
