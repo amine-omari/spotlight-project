@@ -741,16 +741,8 @@ video {
   row-gap: 0.375rem;
 }
 
-.gap-y-16 {
-  row-gap: 4rem;
-}
-
 .gap-y-12 {
   row-gap: 3rem;
-}
-
-.gap-y-14 {
-  row-gap: 3.5rem;
 }
 
 .space-x-5 > :not([hidden]) ~ :not([hidden]) {
@@ -1110,6 +1102,11 @@ video {
     justify-content: space-between;
   }
 
+  .md\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .md\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
@@ -1118,11 +1115,6 @@ video {
   .md\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
-  }
-
-  .md\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
   }
 
   .md\:text-5xl {
@@ -1183,26 +1175,6 @@ video {
 }
 
 @media (min-width: 1280px) {
-  .xl\:right-3 {
-    right: 0.75rem;
-  }
-
-  .xl\:right-36 {
-    right: 9rem;
-  }
-
-  .xl\:right-4 {
-    right: 1rem;
-  }
-
-  .xl\:right-48 {
-    right: 12rem;
-  }
-
-  .xl\:right-5 {
-    right: 1.25rem;
-  }
-
   .xl\:right-52 {
     right: 13rem;
   }
