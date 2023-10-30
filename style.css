@@ -1204,83 +1204,71 @@ video {
 }
 
 @media (min-width: 1536px) {
-  .\32xl\:right-\[1000px\] {
-    right: 1000px;
-  }
-
-  .\32xl\:right-9 {
-    right: 2.25rem;
-  }
-
-  .\32xl\:right-96 {
-    right: 24rem;
-  }
-  
-  .\32xl\:right-\[9\] {
-    right: 9;
-  }
-
-  .\32xl\:right-\[90\] {
-    right: 90;
-  }
-
-  .\32xl\:right-\[900\] {
-    right: 900;
-  }
-
-  .\32xl\:right-\[900px\] {
-    right: 900px;
-  }
-
-  .\32xl\:right-\[00px\] {
-    right: 00px;
-  }
-
-  .\32xl\:right-\[800px\] {
-    right: 800px;
-  }
-
-  .\32xl\:right-\[800x\] {
-    right: 800x;
-  }
-
-  .\32xl\:right-\[80x\] {
-    right: 80x;
-  }
-
-  .\32xl\:right-\[8x\] {
-    right: 8x;
-  }
-
-  .\32xl\:right-\[x\] {
-    right: x;
-  }
-
-  .\32xl\:right-\[7x\] {
-    right: 7x;
-  }
-
-  .\32xl\:right-\[75x\] {
-    right: 75x;
-  }
-
-  .\32xl\:right-\[750x\] {
-    right: 750x;
-  }
-
-  .\32xl\:right-\[750px\] {
-    right: 750px;
+  .\32xl\:right-\[770px\] {
+    right: 770px;
   }
 
   .\32xl\:right-\[70px\] {
     right: 70px;
   }
 
-  .\32xl\:right-\[780px\] {
-    right: 780px;
+  .\32xl\:right-\[700px\] {
+    right: 700px;
   }
 
-  .\32xl\:right-\[770px\] {
-    right: 770px;
+  .\32xl\:right-\[100px\] {
+    right: 100px;
+  }
+
+  .\32xl\:right-\[00px\] {
+    right: 00px;
+  }
+
+  .\32xl\:right-\[600px\] {
+    right: 600px;
+  }
+
+  .\32xl\:right-\[500px\] {
+    right: 500px;
+  }
+
+  .\32xl\:right-\[400px\] {
+    right: 400px;
+  }
+
+  .\32xl\:right-\[\] {
+    right: ;
+  }
+
+  .\32xl\:right-\[7\] {
+    right: 7;
+  }
+
+  .\32xl\:right-\[77\] {
+    right: 77;
+  }
+
+  .\32xl\:right-\[770\] {
+    right: 770;
+  }
+
+  .\32xl\:right-\[770p\] {
+    right: 770p;
+  }
+
+  .\32xl\:right-96 {
+    right: 24rem;
+  }
+
+  .\32xl\:right-0 {
+    right: 0px;
+  }
+
+  .\32xl\:left-96 {
+    left: 24rem;
+  }
+
+  .\32xl\:right-9 {
+    right: 2.25rem;
   }
 }
