@@ -1202,3 +1202,89 @@ video {
     padding-left: 6rem;
   }
 }
+
+@media (min-width: 1536px) {
+  .\32xl\:right-\[1000px\] {
+    right: 1000px;
+  }
+
+  .\32xl\:right-9 {
+    right: 2.25rem;
+  }
+
+  .\32xl\:right-96 {
+    right: 24rem;
+  }
+
+  .\32xl\:right-\[\] {
+    right: ;
+  }
+
+  .\32xl\:right-\[9\] {
+    right: 9;
+  }
+
+  .\32xl\:right-\[90\] {
+    right: 90;
+  }
+
+  .\32xl\:right-\[900\] {
+    right: 900;
+  }
+
+  .\32xl\:right-\[900px\] {
+    right: 900px;
+  }
+
+  .\32xl\:right-\[00px\] {
+    right: 00px;
+  }
+
+  .\32xl\:right-\[800px\] {
+    right: 800px;
+  }
+
+  .\32xl\:right-\[800x\] {
+    right: 800x;
+  }
+
+  .\32xl\:right-\[80x\] {
+    right: 80x;
+  }
+
+  .\32xl\:right-\[8x\] {
+    right: 8x;
+  }
+
+  .\32xl\:right-\[x\] {
+    right: x;
+  }
+
+  .\32xl\:right-\[7x\] {
+    right: 7x;
+  }
+
+  .\32xl\:right-\[75x\] {
+    right: 75x;
+  }
+
+  .\32xl\:right-\[750x\] {
+    right: 750x;
+  }
+
+  .\32xl\:right-\[750px\] {
+    right: 750px;
+  }
+
+  .\32xl\:right-\[70px\] {
+    right: 70px;
+  }
+
+  .\32xl\:right-\[780px\] {
+    right: 780px;
+  }
+
+  .\32xl\:right-\[770px\] {
+    right: 770px;
+  }
+}
