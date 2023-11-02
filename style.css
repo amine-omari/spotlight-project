@@ -1202,3 +1202,25 @@ video {
     padding-left: 6rem;
   }
 }
+
+@media (min-width: 1536px) {
+  .\32xl\:right-\[7\] {
+    right: 7;
+  }
+
+  .\32xl\:right-\[77\] {
+    right: 77;
+  }
+
+  .\32xl\:right-\[770\] {
+    right: 770;
+  }
+
+  .\32xl\:right-\[770p\] {
+    right: 770p;
+  }
+
+  .\32xl\:right-\[770px\] {
+    right: 770px;
+  }
+}
