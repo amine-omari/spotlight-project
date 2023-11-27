@@ -1,218 +1,391 @@
 <!DOCTYPE html>
 <html lang="en" class="bg-black h-screen">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SPENCER SHARP</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
-    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<header class="py-[22px]">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <header class="py-[22px] relative">
     <nav class="hidden md:flex md:justify-center">
-        <div class="flex justify-center bg-zinc-800 px-3 text-sm text-white font-medium rounded-full shadow-lg shadow-zinc-800/5 border-x border-zinc-700">
-            <a href="https://spotlight.tailwindui.com/about" class="px-3 py-3 hover:text-teal-400 transition">About</a>
-            <a href="https://spotlight.tailwindui.com/articles" class="px-3 py-3 hover:text-teal-400 transition">Articles</a>
-            <a href="https://spotlight.tailwindui.com/projects" class="px-3 py-3 hover:text-teal-400 transition">Projects</a>
-            <a href="https://spotlight.tailwindui.com/speaking" class="px-3 py-3 hover:text-teal-400 transition">Speaking</a>
-            <a href="https://spotlight.tailwindui.com/uses" class="px-3 py-3 hover:text-teal-400 transition">Uses</a>
-        </div>
-        <button class="absolute right-16 bg-zinc-800 py-2 px-4 rounded-full text-lg text-zinc-500 lg:right-28 xl:right-52 2xl:right-[770px]">
-            <i class="fa-regular fa-moon"></i>
-        </button>
+      <div
+        class="flex justify-center bg-zinc-800 px-3 text-sm text-white font-medium rounded-full shadow-lg shadow-zinc-800/5 border-x border-zinc-700"
+      >
+        <a
+          href="https://spotlight.tailwindui.com/about"
+          class="px-3 py-3 hover:text-teal-400 transition"
+          >About</a
+        >
+        <a
+          href="https://spotlight.tailwindui.com/articles"
+          class="px-3 py-3 hover:text-teal-400 transition"
+          >Articles</a
+        >
+        <a
+          href="https://spotlight.tailwindui.com/projects"
+          class="px-3 py-3 hover:text-teal-400 transition"
+          >Projects</a
+        >
+        <a
+          href="https://spotlight.tailwindui.com/speaking"
+          class="px-3 py-3 hover:text-teal-400 transition"
+          >Speaking</a
+        >
+        <a
+          href="https://spotlight.tailwindui.com/uses"
+          class="px-3 py-3 hover:text-teal-400 transition"
+          >Uses</a
+        >
+      </div>
+      <button
+        class="absolute right-16 bg-zinc-800 py-2 px-4 rounded-full text-lg text-zinc-500 lg:right-28"
+      >
+        <i class="fa-regular fa-moon"></i>
+      </button>
     </nav>
 
     <nav class="md:hidden">
-        <div class="flex justify-end pr-4 gap-x-4">
-            <button type="button" class="bg-zinc-800 py-2 px-4 rounded-full text-white text-sm font-semibold">
-                Menu <i class="fa-solid fa-angle-down text-[8px] text-zinc-500 ml-2"></i>
-            </button>
-            <button class="bg-zinc-800 py-2 px-4 rounded-full text-lg text-zinc-500">
-                <i class="fa-regular fa-moon"></i>
-            </button>
-        </div>
+      <div class="flex justify-end pr-4 gap-x-4">
+        <button
+          type="button"
+          class="bg-zinc-800 py-2 px-4 rounded-full text-white text-sm font-semibold"
+        >
+          Menu
+          <i class="fa-solid fa-angle-down text-[8px] text-zinc-500 ml-2"></i>
+        </button>
+        <button
+          class="bg-zinc-800 py-2 px-4 rounded-full text-lg text-zinc-500"
+        >
+          <i class="fa-regular fa-moon"></i>
+        </button>
+      </div>
     </nav>
-</header>
-<body class="max-w-[1216px] bg-zinc-900 md:mx-8 lg:mx-16 xl:mx-auto">
+  </header>
+  <body class="max-w-[1216px] bg-zinc-900 md:mx-8 lg:mx-16 xl:mx-auto">
     <main>
-        <section class="max-w-2xl mt-10 mx-4 md:mx-8 lg:mx-12 xl:mx-24">
-            <div class="flex justify-start">
-                <a href="" class="rounded-full">
-                    <img src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.51a13c67.jpg&w=128&q=75" class="w-16 rounded-full">
-                </a>
-            </div>
-            <h1 class="text-[32px] font-bold tracking-tight text-white mt-6 leading-10 md:text-5xl md:leading-[56px]">Software designer, founder, and amateur astronaut.</h1>
-            <p class="text-zinc-400 mt-6 leading-7">
-                I'm Spencer, a software designer and entrepreneur based in New York City. I'm the founder and CEO of Planetaria, 
-                where we develop technologies that empower regular people to explore space on their own terms.
-            </p>
-            <div class="text-zinc-400 mt-6 ml-1 text-xl flex gap-7">
-                <a href="https://twitter.com/?lang=en" class="px-1 -m-1 hover:text-white">
-                    <i class="fa-brands fa-twitter"></i>
-                </a>
-                <a href="https://www.instagram.com/" class="px-1 -m-1 hover:text-white">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-                <a href="https://github.com/" class="px-1 -m-1 hover:text-white">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/" class="px-1 -m-1 hover:text-white">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-            </div>
-        </section>
-        <section class="flex flex-col items-center mt-20 gap-4 md:flex-row md:flex-wrap md:justify-center">
-            <img src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-1.c5d2141c.jpg&w=640&q=75" class="w-[200px] h-40 rounded-xl">
-            <img src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-2.3c6c01cf.jpg&w=640&q=75" class="w-[200px] h-40 rounded-xl">
-            <img src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-3.454151b1.jpg&w=640&q=75" class="w-[200px] h-40 rounded-xl">
-            <img src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-4.5c6d0ed6.jpg&w=640&q=75" class="w-[200px] h-40 rounded-xl">
-            <img src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-5.6c6f2784.jpg&w=640&q=75" class="w-[200px] h-40 rounded-xl">
-        </section>
-        <section class="mt-20 grid gap-20 md:px-12 lg:grid-cols-2 lg:px-12 lg:gap-0 xl:px-24">
-            <div class="flex flex-col gap-y-12">
-                <a href="https://spotlight.tailwindui.com/articles/crafting-a-design-system-for-a-multiplanetary-future">
-                    <div class="relative p-4 md:px-0">
-                        <div class="absolute h-full w-full top-0 left-0 hover:bg-zinc-200/10 hover:scale-110 transition duration-300 rounded-3xl"></div>
-                        <p class="text-sm text-zinc-500">
-                            <span class="mr-2">|</span>
-                            September 5, 2022
-                        </p>
-                        <h2 class="text-white mt-3 font-semibold tracking-tight">Crafting a design system for a multiplanetary future</h2>
-                        <p class="text-zinc-400 mt-2 text-sm leading-6">
-                            Most companies try to stay ahead of the curve when it comes to visual design, 
-                            but for Planetaria we needed to create a brand that would still inspire us 100 years from now when humanity has 
-                            spread across our entire solar system.
-                        </p>
-                        <p class="text-sm mt-4 text-teal-500 font-semibold">
-                            Read article
-                            <i class="fa-solid fa-angle-right text-[8px] ml-1.5"></i>
-                        </p>
-                    </div>
-                </a>
-                <a href="https://spotlight.tailwindui.com/articles/introducing-animaginary">
-                    <div class="relative p-4 md:px-0">
-                        <div class="absolute h-full w-full top-0 left-0 hover:bg-zinc-200/10 hover:scale-110 transition duration-300 rounded-3xl"></div>
-                        <p class="text-sm text-zinc-500">
-                            <span class="mr-2">|</span>
-                            September 2, 2022
-                        </p>
-                        <h2 class="text-white mt-3 font-semibold tracking-tight leading-7">Introducing Animaginary: High performance web animations</h2>
-                        <p class="text-zinc-400 mt-2 text-sm leading-6">
-                            When you're building a website for a company as ambitious as Planetaria, you need to make an impression. 
-                            I wanted people to visit our website and see animations that looked more realistic than reality itself.
-                        </p>
-                        <p class="text-sm mt-4 text-teal-500 font-semibold">
-                            Read article
-                            <i class="fa-solid fa-angle-right text-[8px] ml-1.5"></i>
-                        </p>
-                    </div>
-                </a>
-                <a href="https://spotlight.tailwindui.com/articles/rewriting-the-cosmos-kernel-in-rust">
-                    <div class="relative p-4 md:px-0">
-                        <div class="absolute h-full w-full top-0 left-0 hover:bg-zinc-200/10 hover:scale-110 transition duration-300 rounded-3xl"></div>
-                        <p class="text-sm text-zinc-500">
-                            <span class="mr-2">|</span>
-                            July 14, 2022
-                        </p>
-                        <h2 class="text-white mt-3 font-semibold tracking-tight leading-7">Rewriting the cosmOS kernel in Rust</h2>
-                        <p class="text-zinc-400 mt-2 text-sm leading-6">
-                            When we released the first version of cosmOS last year, it was written in Go. Go is a wonderful programming language, but it’s been a while since 
-                            I've seen an article on the front page of Hacker News about rewriting some important tool in Go and I see articles on there about rewriting things in Rust every single week.
-                        </p>
-                        <p class="text-sm mt-4 text-teal-500 font-semibold">
-                            Read article
-                            <i class="fa-solid fa-angle-right text-[8px] ml-1.5"></i>
-                        </p>
-                    </div> 
-                </a>
-            </div>
-            <div class="px-4 lg:px-0 lg:pl-16 xl:pl-24">
-                <form method="post" target="_blank" autocapitalize="on" class="border border-zinc-700/40 p-6 rounded-2xl">
-                    <h2 class="text-white text-sm font-semibold">
-                        <i class="fa-regular fa-envelope text-zinc-500 mr-2 text-xl"></i>
-                        Stay up to date
-                    </h2>
-                    <p class="text-zinc-400 text-sm mt-2 leading-6">Get notified when i publish something new, and unsubscribe at any time.</p>
-                    <div class="mt-6 flex justify-between">
-                        <input class="text-white min-w-[80%] md:min-w-[87%] lg:min-w-fit px-3 py-[7px] rounded-md bg-zinc-700/10 border border-zinc-600 focus:ring-4 focus:ring-teal-400/10 focus:border-teal-400 focus:outline-none placeholder:text-zinc-500" type="email" placeholder="Email address" required pattern="[A-Za-z0-9]+@[a-z]+\.[a-z]{2,3}" title="must be a valid email address">
-                        <button class="px-3 py-2 text-white bg-zinc-700 rounded-md font-semibold hover:bg-zinc-600" type="submit">Join</button>
-                    </div>
-                </form>
-                <div class="mt-10 border border-zinc-700/40 p-6 rounded-2xl">
-                    <h2 class="text-white text-sm font-semibold">
-                        <i class="fa-solid fa-briefcase text-zinc-700 text-base mr-3"></i>
-                        Work
-                    </h2>
-                    <ol class="mt-6 space-y-4">
-                        <li class="flex justify-between gap-x-4 items-center">
-                            <div class="h-10 w-10 bg-zinc-800 rounded-full flex justify-center items-center border border-zinc-700/50">
-                                <img src="https://spotlight.tailwindui.com/_next/static/media/planetaria.ecd81ade.svg" class="w-7 h-7">
-                            </div>
-                            <div class="flex flex-col min-w-[83%] md:min-w-[89%] lg:min-w-[80%] xl:min-w-[84%] gap-y-1.5">
-                                <p class="text-white text-sm font-semibold">Planetaria</p>
-                                <div class="text-[13px] flex justify-between">
-                                    <p class="text-zinc-400">CEO</p>
-                                    <time class="text-zinc-500">2019 — present</time>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="flex justify-between gap-x-4 items-center">
-                            <div class="h-10 w-10 bg-zinc-800 rounded-full flex justify-center items-center border border-zinc-700/50">
-                                <img src="https://spotlight.tailwindui.com/_next/static/media/airbnb.b4000690.svg" class="w-7 h-7">
-                            </div>
-                            <div class="flex flex-col min-w-[83%] md:min-w-[89%] lg:min-w-[80%] xl:min-w-[84%] gap-y-1.5">
-                                <p class="text-white text-sm font-semibold">Airbnb</p>
-                                <div class="text-[13px] flex justify-between">
-                                    <p class="text-zinc-400">Produc Designer</p>
-                                    <time class="text-zinc-500">2014 — 2019</time>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="flex justify-between gap-x-4 items-center">
-                            <div class="h-10 w-10 bg-zinc-800 rounded-full flex justify-center items-center border border-zinc-700/50">
-                                <img src="https://spotlight.tailwindui.com/_next/static/media/facebook.dd9e7d48.svg" class="w-7 h-7">
-                            </div>
-                            <div class="flex flex-col min-w-[83%] md:min-w-[89%] lg:min-w-[80%] xl:min-w-[84%] gap-y-1.5">
-                                <p class="text-white text-sm font-semibold">Facebook</p>
-                                <div class="text-[13px] flex justify-between">
-                                    <p class="text-zinc-400">IOS Software Engineer</p>
-                                    <time class="text-zinc-500">2011 — 2014</time>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="flex justify-between gap-x-4 items-center">
-                            <div class="h-10 w-10 bg-zinc-800 rounded-full flex justify-center items-center border border-zinc-700/50">
-                                <img src="https://spotlight.tailwindui.com/_next/static/media/starbucks.4a5bd050.svg" class="w-7 h-7">
-                            </div>
-                            <div class="flex flex-col min-w-[83%] md:min-w-[89%] lg:min-w-[80%] xl:min-w-[84%] gap-y-1.5">
-                                <p class="text-white text-sm font-semibold">Starbucks</p>
-                                <div class="text-[13px] flex justify-between">
-                                    <p class="text-zinc-400">Shift Supervisor</p>
-                                    <time class="text-zinc-500">2008 — 2011</time>
-                                </div>
-                            </div>
-                        </li>
-                    </ol>
-                    <a href="" class="flex gap-x-3 justify-center text-white text-sm font-semibold mt-6 bg-zinc-800/50 py-2.5 px-3 rounded-md hover:bg-zinc-800">
-                        Download CV
-                        <i class="fa-solid fa-arrow-down text-[10px] mt-1.5 text-zinc-400"></i>
-                    </a>
-                </div>
-            </div>
-        </section>
-    </main>
-</body>
-<hr class="border border-zinc-700/40 mt-32">
-<footer class="pt-10 pb-16">
-    <div class="px-4 flex flex-col items-center gap-7 md:flex-row md:justify-between md:px-8 lg:px-12 xl:px-24">
-        <div class="text-white space-x-5 font-semibold text-sm">
-            <a href="https://spotlight.tailwindui.com/about" class="hover:text-teal-400 transition">About</a>
-            <a href="https://spotlight.tailwindui.com/projects" class="hover:text-teal-400 transition">Projects</a>
-            <a href="https://spotlight.tailwindui.com/speaking" class="hover:text-teal-400 transition">Speaking</a>
-            <a href="https://spotlight.tailwindui.com/uses" class="hover:text-teal-400 transition">Uses</a>
+      <section class="max-w-2xl mt-10 mx-4 md:mx-8 lg:mx-12 xl:mx-24">
+        <div class="flex justify-start">
+          <a href="" class="rounded-full">
+            <img
+              src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.51a13c67.jpg&w=128&q=75"
+              class="w-16 rounded-full"
+            />
+          </a>
         </div>
-        <p class="text-zinc-500 text-sm">© 2023 Spencer Sharp. All rights reserved.</p>
+        <h1
+          class="text-[32px] font-bold tracking-tight text-white mt-6 leading-10 md:text-5xl md:leading-[56px]"
+        >
+          Software designer, founder, and amateur astronaut.
+        </h1>
+        <p class="text-zinc-400 mt-6 leading-7">
+          I'm Spencer, a software designer and entrepreneur based in New York
+          City. I'm the founder and CEO of Planetaria, where we develop
+          technologies that empower regular people to explore space on their own
+          terms.
+        </p>
+        <div class="text-zinc-400 mt-6 ml-1 text-xl flex gap-7">
+          <a
+            href="https://twitter.com/?lang=en"
+            class="px-1 -m-1 hover:text-white"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/"
+            class="px-1 -m-1 hover:text-white"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://github.com/" class="px-1 -m-1 hover:text-white">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/"
+            class="px-1 -m-1 hover:text-white"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </section>
+      <section
+        class="flex flex-col items-center mt-20 gap-4 md:flex-row md:flex-wrap md:justify-center"
+      >
+        <img
+          src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-1.c5d2141c.jpg&w=640&q=75"
+          class="w-[200px] h-40 rounded-xl"
+        />
+        <img
+          src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-2.3c6c01cf.jpg&w=640&q=75"
+          class="w-[200px] h-40 rounded-xl"
+        />
+        <img
+          src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-3.454151b1.jpg&w=640&q=75"
+          class="w-[200px] h-40 rounded-xl"
+        />
+        <img
+          src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-4.5c6d0ed6.jpg&w=640&q=75"
+          class="w-[200px] h-40 rounded-xl"
+        />
+        <img
+          src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-5.6c6f2784.jpg&w=640&q=75"
+          class="w-[200px] h-40 rounded-xl"
+        />
+      </section>
+      <section
+        class="mt-20 grid gap-20 md:px-12 lg:grid-cols-2 lg:px-12 lg:gap-0 xl:px-24"
+      >
+        <div class="flex flex-col gap-y-12">
+          <a
+            href="https://spotlight.tailwindui.com/articles/crafting-a-design-system-for-a-multiplanetary-future"
+          >
+            <div class="relative p-4 md:px-0">
+              <div
+                class="absolute h-full w-full top-0 left-0 hover:bg-zinc-200/10 hover:scale-110 transition duration-300 rounded-3xl"
+              ></div>
+              <p class="text-sm text-zinc-500">
+                <span class="mr-2">|</span>
+                September 5, 2022
+              </p>
+              <h2 class="text-white mt-3 font-semibold tracking-tight">
+                Crafting a design system for a multiplanetary future
+              </h2>
+              <p class="text-zinc-400 mt-2 text-sm leading-6">
+                Most companies try to stay ahead of the curve when it comes to
+                visual design, but for Planetaria we needed to create a brand
+                that would still inspire us 100 years from now when humanity has
+                spread across our entire solar system.
+              </p>
+              <p class="text-sm mt-4 text-teal-500 font-semibold">
+                Read article
+                <i class="fa-solid fa-angle-right text-[8px] ml-1.5"></i>
+              </p>
+            </div>
+          </a>
+          <a
+            href="https://spotlight.tailwindui.com/articles/introducing-animaginary"
+          >
+            <div class="relative p-4 md:px-0">
+              <div
+                class="absolute h-full w-full top-0 left-0 hover:bg-zinc-200/10 hover:scale-110 transition duration-300 rounded-3xl"
+              ></div>
+              <p class="text-sm text-zinc-500">
+                <span class="mr-2">|</span>
+                September 2, 2022
+              </p>
+              <h2
+                class="text-white mt-3 font-semibold tracking-tight leading-7"
+              >
+                Introducing Animaginary: High performance web animations
+              </h2>
+              <p class="text-zinc-400 mt-2 text-sm leading-6">
+                When you're building a website for a company as ambitious as
+                Planetaria, you need to make an impression. I wanted people to
+                visit our website and see animations that looked more realistic
+                than reality itself.
+              </p>
+              <p class="text-sm mt-4 text-teal-500 font-semibold">
+                Read article
+                <i class="fa-solid fa-angle-right text-[8px] ml-1.5"></i>
+              </p>
+            </div>
+          </a>
+          <a
+            href="https://spotlight.tailwindui.com/articles/rewriting-the-cosmos-kernel-in-rust"
+          >
+            <div class="relative p-4 md:px-0">
+              <div
+                class="absolute h-full w-full top-0 left-0 hover:bg-zinc-200/10 hover:scale-110 transition duration-300 rounded-3xl"
+              ></div>
+              <p class="text-sm text-zinc-500">
+                <span class="mr-2">|</span>
+                July 14, 2022
+              </p>
+              <h2
+                class="text-white mt-3 font-semibold tracking-tight leading-7"
+              >
+                Rewriting the cosmOS kernel in Rust
+              </h2>
+              <p class="text-zinc-400 mt-2 text-sm leading-6">
+                When we released the first version of cosmOS last year, it was
+                written in Go. Go is a wonderful programming language, but it’s
+                been a while since I've seen an article on the front page of
+                Hacker News about rewriting some important tool in Go and I see
+                articles on there about rewriting things in Rust every single
+                week.
+              </p>
+              <p class="text-sm mt-4 text-teal-500 font-semibold">
+                Read article
+                <i class="fa-solid fa-angle-right text-[8px] ml-1.5"></i>
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="px-4 lg:px-0 lg:pl-16 xl:pl-24">
+          <form
+            method="post"
+            target="_blank"
+            autocapitalize="on"
+            class="border border-zinc-700/40 p-6 rounded-2xl"
+          >
+            <h2 class="text-white text-sm font-semibold">
+              <i class="fa-regular fa-envelope text-zinc-500 mr-2 text-xl"></i>
+              Stay up to date
+            </h2>
+            <p class="text-zinc-400 text-sm mt-2 leading-6">
+              Get notified when i publish something new, and unsubscribe at any
+              time.
+            </p>
+            <div class="mt-6 flex justify-between">
+              <input
+                class="text-white min-w-[80%] md:min-w-[87%] lg:min-w-fit px-3 py-[7px] rounded-md bg-zinc-700/10 border border-zinc-600 focus:ring-4 focus:ring-teal-400/10 focus:border-teal-400 focus:outline-none placeholder:text-zinc-500"
+                type="email"
+                placeholder="Email address"
+                required
+                pattern="[A-Za-z0-9]+@[a-z]+\.[a-z]{2,3}"
+                title="must be a valid email address"
+              />
+              <button
+                class="px-3 py-2 text-white bg-zinc-700 rounded-md font-semibold hover:bg-zinc-600"
+                type="submit"
+              >
+                Join
+              </button>
+            </div>
+          </form>
+          <div class="mt-10 border border-zinc-700/40 p-6 rounded-2xl">
+            <h2 class="text-white text-sm font-semibold">
+              <i class="fa-solid fa-briefcase text-zinc-700 text-base mr-3"></i>
+              Work
+            </h2>
+            <ol class="mt-6 space-y-4">
+              <li class="flex justify-between gap-x-4 items-center">
+                <div
+                  class="h-10 w-10 bg-zinc-800 rounded-full flex justify-center items-center border border-zinc-700/50"
+                >
+                  <img
+                    src="https://spotlight.tailwindui.com/_next/static/media/planetaria.ecd81ade.svg"
+                    class="w-7 h-7"
+                  />
+                </div>
+                <div
+                  class="flex flex-col min-w-[83%] md:min-w-[89%] lg:min-w-[80%] xl:min-w-[84%] gap-y-1.5"
+                >
+                  <p class="text-white text-sm font-semibold">Planetaria</p>
+                  <div class="text-[13px] flex justify-between">
+                    <p class="text-zinc-400">CEO</p>
+                    <time class="text-zinc-500">2019 — present</time>
+                  </div>
+                </div>
+              </li>
+              <li class="flex justify-between gap-x-4 items-center">
+                <div
+                  class="h-10 w-10 bg-zinc-800 rounded-full flex justify-center items-center border border-zinc-700/50"
+                >
+                  <img
+                    src="https://spotlight.tailwindui.com/_next/static/media/airbnb.b4000690.svg"
+                    class="w-7 h-7"
+                  />
+                </div>
+                <div
+                  class="flex flex-col min-w-[83%] md:min-w-[89%] lg:min-w-[80%] xl:min-w-[84%] gap-y-1.5"
+                >
+                  <p class="text-white text-sm font-semibold">Airbnb</p>
+                  <div class="text-[13px] flex justify-between">
+                    <p class="text-zinc-400">Produc Designer</p>
+                    <time class="text-zinc-500">2014 — 2019</time>
+                  </div>
+                </div>
+              </li>
+              <li class="flex justify-between gap-x-4 items-center">
+                <div
+                  class="h-10 w-10 bg-zinc-800 rounded-full flex justify-center items-center border border-zinc-700/50"
+                >
+                  <img
+                    src="https://spotlight.tailwindui.com/_next/static/media/facebook.dd9e7d48.svg"
+                    class="w-7 h-7"
+                  />
+                </div>
+                <div
+                  class="flex flex-col min-w-[83%] md:min-w-[89%] lg:min-w-[80%] xl:min-w-[84%] gap-y-1.5"
+                >
+                  <p class="text-white text-sm font-semibold">Facebook</p>
+                  <div class="text-[13px] flex justify-between">
+                    <p class="text-zinc-400">IOS Software Engineer</p>
+                    <time class="text-zinc-500">2011 — 2014</time>
+                  </div>
+                </div>
+              </li>
+              <li class="flex justify-between gap-x-4 items-center">
+                <div
+                  class="h-10 w-10 bg-zinc-800 rounded-full flex justify-center items-center border border-zinc-700/50"
+                >
+                  <img
+                    src="https://spotlight.tailwindui.com/_next/static/media/starbucks.4a5bd050.svg"
+                    class="w-7 h-7"
+                  />
+                </div>
+                <div
+                  class="flex flex-col min-w-[83%] md:min-w-[89%] lg:min-w-[80%] xl:min-w-[84%] gap-y-1.5"
+                >
+                  <p class="text-white text-sm font-semibold">Starbucks</p>
+                  <div class="text-[13px] flex justify-between">
+                    <p class="text-zinc-400">Shift Supervisor</p>
+                    <time class="text-zinc-500">2008 — 2011</time>
+                  </div>
+                </div>
+              </li>
+            </ol>
+            <a
+              href=""
+              class="flex gap-x-3 justify-center text-white text-sm font-semibold mt-6 bg-zinc-800/50 py-2.5 px-3 rounded-md hover:bg-zinc-800"
+            >
+              Download CV
+              <i
+                class="fa-solid fa-arrow-down text-[10px] mt-1.5 text-zinc-400"
+              ></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <hr class="border border-zinc-700/40 mt-32" />
+  <footer class="pt-10 pb-16">
+    <div
+      class="px-4 flex flex-col items-center gap-7 md:flex-row md:justify-between md:px-8 lg:px-12 xl:px-24"
+    >
+      <div class="text-white space-x-5 font-semibold text-sm">
+        <a
+          href="https://spotlight.tailwindui.com/about"
+          class="hover:text-teal-400 transition"
+          >About</a
+        >
+        <a
+          href="https://spotlight.tailwindui.com/projects"
+          class="hover:text-teal-400 transition"
+          >Projects</a
+        >
+        <a
+          href="https://spotlight.tailwindui.com/speaking"
+          class="hover:text-teal-400 transition"
+          >Speaking</a
+        >
+        <a
+          href="https://spotlight.tailwindui.com/uses"
+          class="hover:text-teal-400 transition"
+          >Uses</a
+        >
+      </div>
+      <p class="text-zinc-500 text-sm">
+        © 2023 Spencer Sharp. All rights reserved.
+      </p>
     </div>
-</footer>
+  </footer>
 </html>
